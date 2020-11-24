@@ -11,7 +11,7 @@ export default class HomePage extends Component {
                 <Header />
                 <div className="homeWrapper">
                     {/* <h1>ReactJS Mavel API</h1> */}
-                    <Button variant="btn btnSuccess" onClick={() => history.push('./SearchPage')}>Play</Button>
+                    <Button variant="btn btnSuccess" onClick={() => history.push('./SearchPage')}>Start</Button>
                 </div>
             </div>
         )
