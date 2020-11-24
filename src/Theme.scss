@@ -1,12 +1,48 @@
-$theme-colors: (
-    "info": tomato,
-    "danger": teal
-);
-
 .btn{
     outline: none;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    border-radius: 0;
+    background-color: rgb(235, 21, 21);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: rgb(170, 17, 17);
 }
 
 .btn:focus{
     outline: none;
+}
+
+.btn:before{
+    content:'';
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -12px;
+    left: -13px;
+}
+
+.btn:after{
+    content:'';
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    transform: rotate(-132deg);
+    position: absolute;
+    top: auto;
+    right: -13px;
+    bottom: -12px;
+}
+
+.homeWrapper, .searchWrapper{
+    padding: 2em;
 }

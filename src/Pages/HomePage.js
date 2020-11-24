@@ -7,7 +7,7 @@ import Header from './../Header/Header.js';
 export default class HomePage extends Component {
     render() {
         return (
-            <div className="Home">
+            <div className="home pg">
                 <Header />
                 <div className="homeWrapper">
                     {/* <h1>ReactJS Mavel API</h1> */}
